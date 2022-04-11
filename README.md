@@ -9,4 +9,4 @@ It Provides 2 API's
 
 #### License
 
-MIT
+GPL V3
