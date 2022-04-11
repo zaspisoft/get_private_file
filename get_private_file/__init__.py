@@ -14,3 +14,4 @@ def download_file(docname):
 	f = frappe.get_doc('File', docname)
 	frappe.local.response.filename = f.file_name
 	frappe.local.response.filecontent = f.get_content()
+	frappe.local.response.type = "download" 
