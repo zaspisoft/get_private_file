@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include get_private_file *.css
+recursive-include get_private_file *.csv
+recursive-include get_private_file *.html
+recursive-include get_private_file *.ico
+recursive-include get_private_file *.js
+recursive-include get_private_file *.json
+recursive-include get_private_file *.md
+recursive-include get_private_file *.png
+recursive-include get_private_file *.py
+recursive-include get_private_file *.svg
+recursive-include get_private_file *.txt
+recursive-exclude get_private_file *.pyc
